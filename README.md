@@ -1,6 +1,6 @@
 # HATSim
 
-![HATSim simulator demo](assets/hatsim.gif)
+![HATSim simulator demo](assets/HATSim.gif)
 
 **Heterogeneous Autonomous Teams Simulator** — an open-source, lightweight Python simulation and benchmark environment for multirotor UAVs, fixed-wing aircraft, and unmanned ground robots performing dynamically arriving service tasks.
 
