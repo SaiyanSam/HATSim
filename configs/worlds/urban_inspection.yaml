@@ -1,0 +1,7 @@
+name: urban_inspection
+bounds: [125, 125, 75]
+obstacles:
+  - {center: [30, 35, 16], size: [18, 22, 32]}
+  - {center: [75, 34, 22], size: [19, 23, 44]}
+  - {center: [45, 85, 14], size: [24, 18, 28]}
+  - {center: [90, 88, 19], size: [18, 20, 38]}

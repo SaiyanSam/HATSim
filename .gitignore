@@ -1,0 +1,60 @@
+# Simulation runs and replay artifacts (keep directory scaffold)
+/logs/*
+!/logs/.gitkeep
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and packaging
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated media and temporary files
+*.mp4
+*.avi
+*.tmp
+*.log
+
+# Local secrets and overrides
+.env
+.env.*
+*.local.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+.env/
+
+# Simulation outputs
+/logs/*
+!/logs/.gitkeep
+
+# Local artifacts
+*.rej
+*.orig
+*.bak
+.DS_Store

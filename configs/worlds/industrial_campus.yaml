@@ -1,0 +1,6 @@
+name: industrial_campus
+bounds: [110, 100, 45]
+obstacles:
+  - {center: [35, 38, 8], size: [20, 17, 16]}
+  - {center: [72, 67, 11], size: [24, 19, 22]}
+  - {center: [70, 28, 6], size: [16, 20, 12]}

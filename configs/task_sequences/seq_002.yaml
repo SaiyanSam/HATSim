@@ -1,0 +1,7 @@
+# Deterministic seeded long-range workload for the wide_survey world.
+name: long_range_survey
+mode: generated
+initial_tasks: 3
+arrival_rate_per_min: 5.0
+max_tasks: 16
+arrival_window_s: 95.0

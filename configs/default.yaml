@@ -1,0 +1,16 @@
+world: industrial_campus
+seed: 42
+duration_s: 60
+physics_dt: 0.1
+allocation_period_s: 2
+record_dt: 0.2
+fleet: {multirotor: 2, fixed_wing: 1, ugv: 3}
+policy: highest_reward
+initial_tasks: 2
+arrival_rate_per_min: 4.0
+urgent_probability: 0.2
+max_tasks: 40
+task_sequence: 1
+max_runtime_s: 300
+
+arrival_window_s: 60

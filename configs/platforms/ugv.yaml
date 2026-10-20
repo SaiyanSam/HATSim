@@ -1,0 +1,13 @@
+kind: ugv
+mass_kg: 50.0
+cruise_speed: 0.8
+max_speed: 1.0
+acceleration: 0.6
+turn_rate_deg: 60
+climb_rate: 0.0
+endurance_s: 10800
+collision_radius: 0.8
+safety_radius: 2.0
+energy_motion_multiplier: 0.6
+sensor_mount: {position: [0, 0, 0.6], rpy_deg: [0, 0, 0]}
+lidar: {enabled: true, range_m: 30, azimuth_rays: 48, elevation_angles_deg: [-10, 0, 10], period_s: 0.2}

@@ -1,0 +1,5 @@
+name: open_terrain
+bounds: [180, 150, 70]
+obstacles:
+  - {center: [65, 75, 18], size: [12, 12, 36]}
+  - {center: [120, 100, 15], size: [12, 12, 30]}

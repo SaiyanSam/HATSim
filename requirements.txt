@@ -1,0 +1,9 @@
+# HATSim v0.1 — development and research environment
+# Recommended: Python 3.11 in the conda environment named 'hatsim'.
+# Install from repository root: python -m pip install -r requirements.txt
+# Dependency versions/ranges are sourced from pyproject.toml.
+# This file installs the project and all available optional dependency groups.
+# For byte-for-byte environment reproducibility, create a tested lockfile
+# after installing: python -m pip freeze > requirements-lock.txt
+
+-e .[gui,marl,test]

@@ -1,0 +1,7 @@
+# Sequence 1: seeded dynamic arrivals, identical across policies/fleets at a fixed seed/world.
+name: dynamic_default
+mode: generated
+initial_tasks: 2
+arrival_rate_per_min: 4.0
+max_tasks: 40
+arrival_window_s: 60.0

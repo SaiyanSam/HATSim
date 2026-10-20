@@ -1,0 +1,14 @@
+name: wide_survey
+bounds: [650, 520, 75]
+navigation_margin_m: 3.0
+avoidance_lookahead_s: 2.0
+deadline_scale: 3.0
+service_radii_m:
+  point_inspection: {multirotor: 4.0, fixed_wing: 0.0, ugv: 3.0}
+  corridor_survey: {multirotor: 18.0, fixed_wing: 38.0, ugv: 0.0}
+  general_inspection: {multirotor: 5.0, fixed_wing: 30.0, ugv: 3.0}
+obstacles:
+  - {center: [170, 165, 12], size: [38, 52, 24]}
+  - {center: [350, 320, 15], size: [54, 42, 30]}
+  - {center: [490, 130, 10], size: [65, 36, 20]}
+  - {center: [250, 405, 8], size: [34, 60, 16]}
